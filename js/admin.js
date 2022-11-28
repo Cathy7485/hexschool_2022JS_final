@@ -85,7 +85,7 @@ orderList.addEventListener("click",e=>{
 // 修改訂單狀態
 function editOrderList(status,id) {
 	let newStatus ;
-	if(status == false){
+	if(status == "false"){
 		newStatus=true;
 	}else{
 		newStatus=false;
